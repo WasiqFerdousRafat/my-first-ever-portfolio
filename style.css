@@ -22,14 +22,18 @@ section{
     padding-right: 10%;
 }
 .half-width{
+
+    padding-top: 10%;
     width: 50%;
     
 }
 .half-width img{
     width: 70%;
     padding-right: 40%;
+
 }
 #border{
+    padding-left: 20px;
     border-left: 4.5px solid rgb(47, 102, 221) ;
     line-height: 25px;
 }
@@ -63,9 +67,9 @@ section{
 
 }
 .icon-set img{
-    align-items: center;
+    padding-left: 15%;
     width: 50%;
 }
-#center{
-    text-align: justify;
+.center{
+    text-align: center;
 }
