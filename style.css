@@ -4,11 +4,12 @@ body{
 h1{
     font-size: 35px;
 }
+
 .purple-color{
     color: purple;
 }
 section{
-    margin-top: 10px;
+    margin-top: 10%;
     margin-bottom: 10px;    
     margin-left: 10px;
     
@@ -16,10 +17,43 @@ section{
 .salmon-color{
     color:salmon;
 }
+.white-color{
+    color: white;
+}
 .flex-container{
     display: flex;
     padding-left: 10%;
     padding-right: 10%;
+}
+.flex-container-middle{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.flex-container-bottom{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 60%;
+    background-size: 20%;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+    
+}
+.flex-container-end{
+    background-size: 10%;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+
 }
 .half-width{
 
@@ -32,6 +66,26 @@ section{
     padding-right: 40%;
 
 }
+.half-width-bottom{
+    padding-top: 10%;
+    width: 50%;
+}
+
+.half-width-bottom img{
+    width: 70%;
+    padding-left: 40%;
+
+}
+.half-width-end{
+    padding-top: 10%;
+    width: 50%;
+}
+.half-width-end img{
+    width: 70%;
+    padding-right: 40%;
+
+}
+
 #border{
     padding-left: 20px;
     border-left: 4.5px solid rgb(47, 102, 221) ;
@@ -72,4 +126,13 @@ section{
 }
 .center{
     text-align: center;
+}
+.left{
+    text-align: left;
+}
+footer{
+    background-color: black;
+    background-size: 20px;
+    margin: 0;
+   
 }
